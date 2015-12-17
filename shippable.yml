@@ -7,6 +7,9 @@ go:
   
 build_image: drydock/u12golpls:tip
 
+services:
+  - postgres
+
 # Addons used by app
 addons:
   postgresql: "9.3"
