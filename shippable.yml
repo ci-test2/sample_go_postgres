@@ -11,8 +11,8 @@ services:
   - postgres
 
 # Addons used by app
-addons:
-  postgresql: "9.3"
+#addons:
+#  postgresql: "9.3"
 
 env:
   - CI_REPORT=shippable/testresults/junit.xml
